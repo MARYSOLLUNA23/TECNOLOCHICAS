@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Clase 5 </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <style>
+    html, body {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    } 
+    body {
+      margin: 0;
+      background-color: #edf2ef;
+      color: #101211;
+      font-family: 'Roboto', sans-serif;
+    }
+    #header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: aqua;
+    }
+    #main-content-container {
+      display: flex;
+    }
+    #links-sidebar {
+      flex: 2;
+      background: blue;
+    }
+    #main-content{
+      flex: 6;
+      background: pink;
+      padding: 10px 20px 10px 20px;
+      
+    }
+    .main-content--img {
+      width: 100%;
+    }
+    #footer {
+      display: flex;
+      padding: 0 20px 20px 20px;
+      margin-top: 0 auto;
+      background: white;
+    }
+    .footer__section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    input[type=email], textarea{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      outline: none;
+    }
+    input[type=submit] {
+      background: plum;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<header id="header">
+    <h1> Ada Lovelace </h1>
+    <p>1815 - 1852</p>
+</header>
+
+​
+<div id="main-content-container">
+    <aside id="links-sidebar" >
+        Links relacionados
+    </aside>
+    <section id="main-content">
+​
+      <img src="./img/morat.png" alt="Ada Lovelace" class="main-content--img" />
+      <h4>Biografia</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, sit amet,</p>
+​
+​
+      <h4>Datos Curiosos</h4>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia quo, dolore a exercitationem accusantium velit, fugiat id nam, pariatur iure iusto consequatur magni vero necessitatibus cupiditate unde labore earum quas.</p>
+    </section>
+</div>
+​
+<footer id="footer" >
+    <div class="footer__section">
+      <h2>Mis redes</h2>
+      <span><i class="lni lni-android-original"></i> <a>Soy un androide</a></span>
+      <i class="lni lni-dev"></i>
+    </div>
+    <div class="footer__section">
+      <h2>Contacto</h2>
+      <div>
+        <form>
+          <label for="contactEmail"> Correo electronico:</label>
+          <input id="contactEmail" required type="email" placeholder="Ingresa tu correo electronico">
+  
+          <label for="contactMessage"> Mensaje:</label>
+          <textarea id="contactMessage" required rows="4" cols="50"> </textarea>
+  
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+      
+    </div>
+    <div class="footer__section">
+      <h2>Otros de mis sitios</h2>
+    </div>
+</footer>
+</body>
+</html>
+Contraer
+
+
+
+
+
+

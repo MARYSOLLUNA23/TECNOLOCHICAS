@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body>div{
+    background-color: aqua;
+}
+nav{
+    background-color: rgb(4, 0, 255);
+}
+article{
+    background-color: blueviolet;
+}
+section{
+    background-color:brown;
+}
+aside{
+    background-color: greenyellow;
+}
+header{
+    background-color: aliceblue;
+}
+footer{
+    background-color: palevioletred;
+}
